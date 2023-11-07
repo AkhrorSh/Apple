@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.header_container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.frame {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.header_links a {
+    color: #424242;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.icons {
+    width: 18px;
+    height: 18px;
+    margin: 11px;
+    display: flex;
+    gap: 20px;
+}
+
+.section {
+    text-align: center;
+    margin: 32px 0 42px 0;
+}
+
+.section h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.section p {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.section a {
+    font-size: 20px;
+    color: rgb(0, 110, 255);
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+.section_container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.section_left {
+    width: 80%;
+    text-align: center;
+}
+
+
+
+.iphone-pics {
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 20%;
+    margin-top: 20px;
+}
+
+.iphone-pics img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.back_arrow img {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 50%;
+    translate: 20% -100%;
+}
+
+.forward_arrow img {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    translate: -120% -100%;
+}
+
+
+.text {
+    margin-top: 16px;
+    font-size: 20.7px;
+    margin-bottom: 27px;
+}
+
+.text b {
+    color: #86868b;
+}
+
+
+.biagonal_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 87px;
+}
+
+.biagonal_btns h4 {
+    color: #bf4800;
+}
+
+.lBtn {
+    width: 120px;
+    height: 80px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid black;
+    border-right: 0px;
+    background: transparent;
+}
+
+.rBtn {
+    width: 120px;
+    height: 80px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid black;
+    border-left: 0px;
+    background: transparent;
+}
+
+.blue {
+    border: 1px solid rgb(0, 102, 255) !important;
+    background: #f7f7f7 !important;
+}
+
+.circle {
+    gap: 10px;
+    display: flex;
+    margin-top: 23px;
+    margin-left: 30px;
+    margin-bottom: 104px;
+}
+
+.SpaceBlack {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #2E2C2F;
+    box-shadow: 5px 3px 10px -3px rgba(0, 0, 0, 0.4) inset;
+
+    border: none;
+}
+
+.Silver {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #E3E4E6;
+    box-shadow: 5px 3px 10px -3px rgba(0, 0, 0, 0.4) inset;
+
+    border: none;
+}
+
+.storage {
+    width: 340px;
+    background: transparent;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 7px;
+    margin-left: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #555658;
+    border-radius: 15px;
+}
+
+.storage-text {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.price_block {
+    position: fixed;
+    left: 100%;
+    translate: -100%;
+    width: 270px;
+    height: 70px;
+    display: none;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    gap: 10px;
+    background: #dbdbdb9a;
+
+}
+.price_block button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #f7f7f7;
+    background-color: #bf4800;
+}
